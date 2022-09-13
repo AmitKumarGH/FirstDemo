@@ -5,6 +5,7 @@ public class Prime {
 		Scanner num = new Scanner(System.in);
 		System.out.println("Enter any number=");
 		int Number = num.nextInt();
+		num.close();
 		int i;
 		boolean f =  true;
 		for(i=2; i<=Number/2; i++)
@@ -22,7 +23,7 @@ public class Prime {
 			System.out.println(Number+" is a Prime Number");
 		}
 
-
+		
 
 	}
 }
