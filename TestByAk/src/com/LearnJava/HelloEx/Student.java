@@ -3,14 +3,14 @@ package com.LearnJava.HelloEx;
 import java.util.Scanner;
 
 public class Student {
-	
+
 	private int Id;
 	private String studentName;
 	private String studentAddress;
 	private String course;
 	private double studentMarks;
-	
-	
+
+
 	public int getId() {
 		return Id;
 	}
@@ -47,14 +47,12 @@ public class Student {
 		this.studentMarks = studentMarks;
 	}
 	public void show() {
-	System.out.println("Student Data:");
-	for(int i=0;i<students.length;i++)
-	{
-		System.out.println("Name: "+ students[i].StudentName);
-		System.out.println("RollNo: "+ students[i].Id);
-		System.out.println("Course: "+ students[i].Course);
-		System.out.println("Address: "+ students[i].StudentAddress);
-		System.out.println("Marks: "+ students[i].StudentMarks);
-	}
+
+		System.out.println("Name: "+ studentName);
+		System.out.println("RollNo: "+ Id);
+		System.out.println("Course: "+ course);
+		System.out.println("Address: "+ studentAddress);
+		System.out.println("Marks: "+ studentMarks);
+
 	}
 }

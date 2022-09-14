@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class StudentDriver {
 	public static void main(String[] args) {
-		
+
 		Student students []  = new Student[2];
 		Scanner input = new Scanner(System.in);
 		// write a loop
@@ -31,10 +31,13 @@ public class StudentDriver {
 			student.setStudentAddress(studentAddress);
 			student.setStudentMarks(studentMarks);
 			students[i]  = student;
-			
 		}
-		student.show();
-		
+
+		System.out.println("Student Data:");
+		for(int i=0;i<students.length;i++)
+		{
+			students[i].show();
+		}
+
 	}
-	
 }
