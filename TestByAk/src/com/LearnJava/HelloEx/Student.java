@@ -1,6 +1,6 @@
 package com.LearnJava.HelloEx;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Student {
 
@@ -10,10 +10,10 @@ public class Student {
 	private String course;
 	private double studentMarks;
 
-
 	public int getId() {
 		return Id;
-	}
+	} 
+	 
 	@Override
 	public String toString() {
 		return "Student [Id=" + Id + ", studentName=" + studentName + ", studentAddress=" + studentAddress + ", course="

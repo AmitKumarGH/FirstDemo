@@ -15,7 +15,7 @@ public class students {
 		String[] studentAddress= new String[10];
 		String[] course= new String[10] ;
 		double[] studentMarks= new double[10];
-		students std = new students();
+		
 		Scanner input = new Scanner(System.in);
 				
 //			System.out.println("Name: "+ studentName[0]);
@@ -49,6 +49,7 @@ public class students {
 			System.out.println("Address: "+ studentAddress[i]);
 			System.out.println("Marks: "+ studentMarks[i]);
 		}
+		input.close();
 }
 }
 		

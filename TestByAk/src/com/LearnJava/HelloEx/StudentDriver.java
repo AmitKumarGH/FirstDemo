@@ -38,6 +38,6 @@ public class StudentDriver {
 		{
 			students[i].show();
 		}
-
+		input.close();
 	}
 }
