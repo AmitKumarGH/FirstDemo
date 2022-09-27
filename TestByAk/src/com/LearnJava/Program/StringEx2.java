@@ -21,4 +21,4 @@ public class StringEx2 {
         return new String(chArr); 
     }
 }
-}
+
